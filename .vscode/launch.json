@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-HorasAgendadasApplication<microservicio-horas-agendadas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.appvet.horas.HorasAgendadasApplication",
+            "projectName": "microservicio-horas-agendadas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-MascotasApplication<microservicio-mascotas>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.appvet.mascotas.MascotasApplication",
+            "projectName": "microservicio-mascotas",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
