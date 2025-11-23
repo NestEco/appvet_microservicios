@@ -70,6 +70,7 @@ public class HoraAgendada {
         this.minuto = minuto;
         this.tipo = tipo;
         this.usuarioId = usuarioId;
+        this.mascotaId = mascotaId;
         this.estado = "Pendiente";
     }
 }
